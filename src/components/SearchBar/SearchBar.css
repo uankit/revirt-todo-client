@@ -1,0 +1,28 @@
+.search{
+    display: flex;
+    gap: 4rem;
+}
+
+.search__input{
+    width: 40%;
+    padding: 0.5rem;
+    outline: none;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.search__input::placeholder{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.search__button{
+    width: 10%;
+    background: #c620a7;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
